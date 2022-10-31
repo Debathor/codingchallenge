@@ -1,0 +1,105 @@
+body {
+  background: url(background.jpg);
+  background-size: cover;
+}
+
+.conteiner {
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-bottom: 5%;
+  margin-top: 5%;
+  border-radius: 20px;
+}
+
+/* 1 parte) Logo + empty space */
+.empty {
+  width: 80px;
+  height: 40px;
+}
+
+.logo {
+  height: 80px;
+  weight: 160px;
+  margin: auto;
+  display: block;
+  border-top: 10%
+}
+/* 2 parte) testa */
+
+header h3 {
+  text-align: center;
+  color: #39FF14;
+  margin-bottom: 1%;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.button {
+  text-align: center;
+  background-color: #39FF14;
+  border-radius: 10px;
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 1%;
+}
+
+/* parte 3) corpo principale */
+main {
+  margin-top: 3%;
+  margin-left: 10%;
+  margin-right: 10%
+}
+
+section {
+  color: white;
+}
+
+.gino {
+  display: inline;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carica {
+  background-color: orange;
+  width: 35%;
+  height: 10%;
+  padding: 1.5%;
+  border-radius: 5px;
+}
+
+.panda {
+  display: inline;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carica2 {
+  background-color: green;
+  width: 70%;
+  height: 10%;
+  padding: 1.5%;
+  border-radius: 5px;
+}
+
+.rello {
+  display: inline;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.carica3 {
+  background-color: red;
+  width: 15%;
+  height: 10%;
+  padding: 1.5%;
+  border-radius: 5px;
+}
+
+/* parte 4 empty-foot */
+
+footer  {
+  width: 80px;
+  height: 80px;
+}
